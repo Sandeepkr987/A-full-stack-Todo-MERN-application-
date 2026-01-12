@@ -1,0 +1,5 @@
+Form → POST /todos → Mongo
+App → GET /todos (on load)
+Filter → GET /todos/filter?status=
+Toggle → PATCH /todos/:id
+Delete → DELETE /todos/:id
